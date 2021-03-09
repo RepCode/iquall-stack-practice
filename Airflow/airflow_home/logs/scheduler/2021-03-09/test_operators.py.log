@@ -1,0 +1,415 @@
+[2021-03-09 12:16:08,321] {scheduler_job.py:153} INFO - Started process (PID=26972) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:16:08,322] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:16:08,323] {logging_mixin.py:112} INFO - [2021-03-09 12:16:08,322] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:16:08,325] {logging_mixin.py:112} INFO - [2021-03-09 12:16:08,324] {dagbag.py:246} ERROR - Failed to import: /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+Traceback (most recent call last):
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py", line 4, in <module>
+    from airflow.operators import MyFirstOperator
+ImportError: cannot import name 'MyFirstOperator'
+[2021-03-09 12:16:08,325] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:16:08,518] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.197 seconds
+[2021-03-09 12:16:58,371] {scheduler_job.py:153} INFO - Started process (PID=27702) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:16:58,372] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:16:58,372] {logging_mixin.py:112} INFO - [2021-03-09 12:16:58,372] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:16:58,375] {logging_mixin.py:112} INFO - [2021-03-09 12:16:58,374] {dagbag.py:246} ERROR - Failed to import: /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+Traceback (most recent call last):
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py", line 4, in <module>
+    from airflow.operators import MyFirstOperator
+ImportError: cannot import name 'MyFirstOperator'
+[2021-03-09 12:16:58,375] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:16:58,457] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.086 seconds
+[2021-03-09 12:18:06,530] {scheduler_job.py:153} INFO - Started process (PID=28768) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:18:06,531] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:18:06,532] {logging_mixin.py:112} INFO - [2021-03-09 12:18:06,531] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:18:06,535] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:18:06,644] {logging_mixin.py:112} INFO - [2021-03-09 12:18:06,644] {dag.py:1485} INFO - Creating ORM DAG for my_test_dag
+[2021-03-09 12:18:06,837] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.307 seconds
+[2021-03-09 12:20:23,467] {scheduler_job.py:153} INFO - Started process (PID=30767) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:20:23,468] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:20:23,468] {logging_mixin.py:112} INFO - [2021-03-09 12:20:23,468] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:20:23,472] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:20:23,577] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:20:23,783] {scheduler_job.py:1292} INFO - Created <DagRun my_test_dag @ 2021-03-08 12:00:00+00:00: scheduled__2021-03-08T12:00:00+00:00, externally triggered: False>
+[2021-03-09 12:20:23,785] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-08 12:00:00+00:00: scheduled__2021-03-08T12:00:00+00:00, externally triggered: False>
+[2021-03-09 12:20:23,790] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:20:00.575505+00:00: manual__2021-03-09T15:20:00.575505+00:00, externally triggered: True>
+[2021-03-09 12:20:23,802] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:20:23,805] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.dummy_task 2021-03-08 12:00:00+00:00 [scheduled]> in ORM
+[2021-03-09 12:20:23,808] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.dummy_task 2021-03-09 15:20:00.575505+00:00 [scheduled]> in ORM
+[2021-03-09 12:20:23,914] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.448 seconds
+[2021-03-09 12:21:35,155] {scheduler_job.py:153} INFO - Started process (PID=31832) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:21:35,156] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:21:35,157] {logging_mixin.py:112} INFO - [2021-03-09 12:21:35,157] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:21:35,160] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:21:35,245] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:21:35,257] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-08 12:00:00+00:00: scheduled__2021-03-08T12:00:00+00:00, externally triggered: False>
+[2021-03-09 12:21:35,265] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:20:00.575505+00:00: manual__2021-03-09T15:20:00.575505+00:00, externally triggered: True>
+[2021-03-09 12:21:35,278] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:21:35,280] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.my_first_operator_task 2021-03-08 12:00:00+00:00 [scheduled]> in ORM
+[2021-03-09 12:21:35,283] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.my_first_operator_task 2021-03-09 15:20:00.575505+00:00 [scheduled]> in ORM
+[2021-03-09 12:21:35,369] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.214 seconds
+[2021-03-09 12:22:46,854] {scheduler_job.py:153} INFO - Started process (PID=462) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:22:46,856] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:22:46,856] {logging_mixin.py:112} INFO - [2021-03-09 12:22:46,856] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:22:46,860] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:22:46,954] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:22:46,964] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-08 12:00:00+00:00: scheduled__2021-03-08T12:00:00+00:00, externally triggered: False>
+[2021-03-09 12:22:46,970] {logging_mixin.py:112} INFO - [2021-03-09 12:22:46,970] {dagrun.py:318} INFO - Marking run <DagRun my_test_dag @ 2021-03-08 12:00:00+00:00: scheduled__2021-03-08T12:00:00+00:00, externally triggered: False> successful
+[2021-03-09 12:22:47,064] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:20:00.575505+00:00: manual__2021-03-09T15:20:00.575505+00:00, externally triggered: True>
+[2021-03-09 12:22:47,069] {logging_mixin.py:112} INFO - [2021-03-09 12:22:47,069] {dagrun.py:318} INFO - Marking run <DagRun my_test_dag @ 2021-03-09 15:20:00.575505+00:00: manual__2021-03-09T15:20:00.575505+00:00, externally triggered: True> successful
+[2021-03-09 12:22:47,164] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:22:47,166] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.312 seconds
+[2021-03-09 12:23:36,791] {scheduler_job.py:153} INFO - Started process (PID=1225) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:23:36,793] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:23:36,793] {logging_mixin.py:112} INFO - [2021-03-09 12:23:36,793] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:23:36,796] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:23:36,892] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:23:36,903] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:23:36,907] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.115 seconds
+[2021-03-09 12:24:26,841] {scheduler_job.py:153} INFO - Started process (PID=2203) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:24:26,843] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:24:26,843] {logging_mixin.py:112} INFO - [2021-03-09 12:24:26,843] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:24:26,847] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:24:26,965] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:24:26,975] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:24:26,977] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.136 seconds
+[2021-03-09 12:25:16,890] {scheduler_job.py:153} INFO - Started process (PID=3255) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:25:16,892] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:25:16,892] {logging_mixin.py:112} INFO - [2021-03-09 12:25:16,892] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:25:16,896] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:25:17,092] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:25:17,102] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:25:17,104] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.214 seconds
+[2021-03-09 12:26:06,940] {scheduler_job.py:153} INFO - Started process (PID=4111) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:26:06,942] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:26:06,942] {logging_mixin.py:112} INFO - [2021-03-09 12:26:06,942] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:26:06,946] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:26:07,044] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:26:07,073] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:26:07,076] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.136 seconds
+[2021-03-09 12:26:56,990] {scheduler_job.py:153} INFO - Started process (PID=4951) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:26:56,992] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:26:56,992] {logging_mixin.py:112} INFO - [2021-03-09 12:26:56,992] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:26:56,997] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:26:57,103] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:26:57,115] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:26:57,118] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.128 seconds
+[2021-03-09 12:27:47,042] {scheduler_job.py:153} INFO - Started process (PID=5753) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:27:47,045] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:27:47,045] {logging_mixin.py:112} INFO - [2021-03-09 12:27:47,045] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:27:47,049] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:27:47,322] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:27:47,332] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:27:47,335] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.293 seconds
+[2021-03-09 12:28:37,092] {scheduler_job.py:153} INFO - Started process (PID=6549) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:28:37,093] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:28:37,094] {logging_mixin.py:112} INFO - [2021-03-09 12:28:37,094] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:28:37,097] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:28:37,181] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:28:37,191] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:28:37,194] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.102 seconds
+[2021-03-09 12:29:27,138] {scheduler_job.py:153} INFO - Started process (PID=7479) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:29:27,140] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:29:27,140] {logging_mixin.py:112} INFO - [2021-03-09 12:29:27,140] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:29:27,143] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:29:27,237] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:29:27,247] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:29:27,249] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.111 seconds
+[2021-03-09 12:30:17,188] {scheduler_job.py:153} INFO - Started process (PID=8218) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:30:17,190] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:30:17,190] {logging_mixin.py:112} INFO - [2021-03-09 12:30:17,190] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:30:17,194] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:30:17,372] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:30:17,382] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:30:17,384] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.196 seconds
+[2021-03-09 12:31:07,236] {scheduler_job.py:153} INFO - Started process (PID=9044) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:31:07,237] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:31:07,237] {logging_mixin.py:112} INFO - [2021-03-09 12:31:07,237] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:31:07,241] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:31:07,353] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:31:07,363] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:31:07,366] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.130 seconds
+[2021-03-09 12:31:57,282] {scheduler_job.py:153} INFO - Started process (PID=9860) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:31:57,284] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:31:57,284] {logging_mixin.py:112} INFO - [2021-03-09 12:31:57,284] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:31:57,288] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:31:57,383] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:31:57,394] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:31:57,396] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.114 seconds
+[2021-03-09 12:32:47,332] {scheduler_job.py:153} INFO - Started process (PID=10609) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:32:47,334] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:32:47,335] {logging_mixin.py:112} INFO - [2021-03-09 12:32:47,334] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:32:47,338] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:32:47,540] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:32:47,552] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:32:47,554] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.222 seconds
+[2021-03-09 12:33:37,381] {scheduler_job.py:153} INFO - Started process (PID=11356) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:33:37,383] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:33:37,383] {logging_mixin.py:112} INFO - [2021-03-09 12:33:37,383] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:33:37,387] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:33:37,487] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:33:37,497] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:33:37,500] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.118 seconds
+[2021-03-09 12:34:27,430] {scheduler_job.py:153} INFO - Started process (PID=12164) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:34:27,432] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:34:27,432] {logging_mixin.py:112} INFO - [2021-03-09 12:34:27,432] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:34:27,435] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:34:27,530] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:34:27,541] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:34:27,543] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.113 seconds
+[2021-03-09 12:35:17,480] {scheduler_job.py:153} INFO - Started process (PID=12959) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:35:17,482] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:35:17,482] {logging_mixin.py:112} INFO - [2021-03-09 12:35:17,482] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:35:17,486] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:35:17,675] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:35:17,688] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:35:17,691] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.211 seconds
+[2021-03-09 12:36:07,532] {scheduler_job.py:153} INFO - Started process (PID=13701) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:36:07,533] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:36:07,533] {logging_mixin.py:112} INFO - [2021-03-09 12:36:07,533] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:36:07,537] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:36:07,630] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:36:07,644] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:36:07,646] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.115 seconds
+[2021-03-09 12:36:57,577] {scheduler_job.py:153} INFO - Started process (PID=14413) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:36:57,579] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:36:57,579] {logging_mixin.py:112} INFO - [2021-03-09 12:36:57,579] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:36:57,583] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:36:57,685] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:36:57,695] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:36:57,698] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.120 seconds
+[2021-03-09 12:37:47,628] {scheduler_job.py:153} INFO - Started process (PID=15151) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:37:47,630] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:37:47,630] {logging_mixin.py:112} INFO - [2021-03-09 12:37:47,630] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:37:47,633] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:37:47,845] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:37:47,855] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:37:47,858] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.230 seconds
+[2021-03-09 12:38:37,676] {scheduler_job.py:153} INFO - Started process (PID=15875) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:38:37,678] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:38:37,678] {logging_mixin.py:112} INFO - [2021-03-09 12:38:37,678] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:38:37,682] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:38:37,781] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:38:37,791] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:38:37,794] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.118 seconds
+[2021-03-09 12:39:27,726] {scheduler_job.py:153} INFO - Started process (PID=16596) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:39:27,727] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:39:27,728] {logging_mixin.py:112} INFO - [2021-03-09 12:39:27,727] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:39:27,731] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:39:27,833] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:39:27,844] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:39:27,847] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.121 seconds
+[2021-03-09 12:40:17,774] {scheduler_job.py:153} INFO - Started process (PID=17333) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:40:17,776] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:40:17,776] {logging_mixin.py:112} INFO - [2021-03-09 12:40:17,776] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:40:17,780] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:40:17,984] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:40:17,995] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:40:17,997] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.223 seconds
+[2021-03-09 12:41:07,824] {scheduler_job.py:153} INFO - Started process (PID=18112) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:41:07,825] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:41:07,826] {logging_mixin.py:112} INFO - [2021-03-09 12:41:07,826] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:41:07,830] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:41:07,915] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:41:07,925] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:41:07,927] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.103 seconds
+[2021-03-09 12:41:57,881] {scheduler_job.py:153} INFO - Started process (PID=18811) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:41:57,885] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:41:57,885] {logging_mixin.py:112} INFO - [2021-03-09 12:41:57,885] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:41:57,892] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:41:57,996] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:41:58,006] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:41:58,008] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.127 seconds
+[2021-03-09 12:42:47,924] {scheduler_job.py:153} INFO - Started process (PID=19528) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:42:47,926] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:42:47,926] {logging_mixin.py:112} INFO - [2021-03-09 12:42:47,926] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:42:47,930] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:42:48,143] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:42:48,153] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:42:48,156] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.232 seconds
+[2021-03-09 12:43:37,974] {scheduler_job.py:153} INFO - Started process (PID=20256) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:43:37,976] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:43:37,976] {logging_mixin.py:112} INFO - [2021-03-09 12:43:37,976] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:43:37,979] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:43:38,083] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:43:38,093] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:43:38,095] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.122 seconds
+[2021-03-09 12:44:28,024] {scheduler_job.py:153} INFO - Started process (PID=20981) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:44:28,026] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:44:28,026] {logging_mixin.py:112} INFO - [2021-03-09 12:44:28,026] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:44:28,030] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:44:28,130] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:44:28,141] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:44:28,143] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.119 seconds
+[2021-03-09 12:45:18,074] {scheduler_job.py:153} INFO - Started process (PID=21739) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:45:18,075] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:45:18,075] {logging_mixin.py:112} INFO - [2021-03-09 12:45:18,075] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:45:18,079] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:45:18,286] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:45:18,296] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:45:18,298] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.225 seconds
+[2021-03-09 12:46:08,122] {scheduler_job.py:153} INFO - Started process (PID=22497) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:46:08,124] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:46:08,124] {logging_mixin.py:112} INFO - [2021-03-09 12:46:08,124] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:46:08,127] {logging_mixin.py:112} INFO - [2021-03-09 12:46:08,126] {dagbag.py:246} ERROR - Failed to import: /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+Traceback (most recent call last):
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py", line 15, in <module>
+    dummy_task >> sensor_task >> operator_task
+NameError: name 'sensor_task' is not defined
+[2021-03-09 12:46:08,127] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:46:08,204] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.082 seconds
+[2021-03-09 12:46:28,937] {scheduler_job.py:153} INFO - Started process (PID=22822) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:46:28,938] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:46:28,938] {logging_mixin.py:112} INFO - [2021-03-09 12:46:28,938] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:46:28,941] {logging_mixin.py:112} INFO - [2021-03-09 12:46:28,940] {dagbag.py:246} ERROR - Failed to import: /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+Traceback (most recent call last):
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/models/dagbag.py", line 243, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py", line 15, in <module>
+    dummy_task >> sensor_task >> operator_task
+NameError: name 'sensor_task' is not defined
+[2021-03-09 12:46:28,941] {scheduler_job.py:1574} WARNING - No viable dags retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:46:29,010] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.074 seconds
+[2021-03-09 12:48:47,396] {scheduler_job.py:153} INFO - Started process (PID=24882) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:48:47,398] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:48:47,398] {logging_mixin.py:112} INFO - [2021-03-09 12:48:47,398] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:48:47,401] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:48:47,609] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:48:47,620] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:48:34.615405+00:00: manual__2021-03-09T15:48:34.615405+00:00, externally triggered: True>
+[2021-03-09 12:48:47,633] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:48:47,636] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.dummy_task 2021-03-09 15:48:34.615405+00:00 [scheduled]> in ORM
+[2021-03-09 12:48:47,803] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.407 seconds
+[2021-03-09 12:49:48,299] {scheduler_job.py:153} INFO - Started process (PID=25759) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:49:48,300] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:49:48,301] {logging_mixin.py:112} INFO - [2021-03-09 12:49:48,301] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:49:48,304] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:49:48,417] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:49:48,531] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:48:34.615405+00:00: manual__2021-03-09T15:48:34.615405+00:00, externally triggered: True>
+[2021-03-09 12:49:48,555] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:49:48,560] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.my_sensor_task 2021-03-09 15:48:34.615405+00:00 [scheduled]> in ORM
+[2021-03-09 12:49:48,669] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.370 seconds
+[2021-03-09 12:52:10,290] {scheduler_job.py:153} INFO - Started process (PID=27847) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:52:10,291] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:52:10,291] {logging_mixin.py:112} INFO - [2021-03-09 12:52:10,291] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:52:10,295] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:52:10,399] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:52:10,409] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:48:34.615405+00:00: manual__2021-03-09T15:48:34.615405+00:00, externally triggered: True>
+[2021-03-09 12:52:10,422] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:52:10,424] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.my_first_operator_task 2021-03-09 15:48:34.615405+00:00 [scheduled]> in ORM
+[2021-03-09 12:52:10,498] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.209 seconds
+[2021-03-09 12:53:10,954] {scheduler_job.py:153} INFO - Started process (PID=28733) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:53:10,956] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:53:10,956] {logging_mixin.py:112} INFO - [2021-03-09 12:53:10,956] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:53:10,960] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:53:11,058] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:53:11,068] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:48:34.615405+00:00: manual__2021-03-09T15:48:34.615405+00:00, externally triggered: True>
+[2021-03-09 12:53:11,075] {logging_mixin.py:112} INFO - [2021-03-09 12:53:11,074] {dagrun.py:318} INFO - Marking run <DagRun my_test_dag @ 2021-03-09 15:48:34.615405+00:00: manual__2021-03-09T15:48:34.615405+00:00, externally triggered: True> successful
+[2021-03-09 12:53:11,169] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:53:11,171] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.217 seconds
+[2021-03-09 12:54:00,896] {scheduler_job.py:153} INFO - Started process (PID=29485) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:54:00,897] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:54:00,898] {logging_mixin.py:112} INFO - [2021-03-09 12:54:00,898] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:54:00,901] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:54:01,002] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:54:01,012] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:54:01,015] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.119 seconds
+[2021-03-09 12:54:50,945] {scheduler_job.py:153} INFO - Started process (PID=30219) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:54:50,947] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:54:50,947] {logging_mixin.py:112} INFO - [2021-03-09 12:54:50,947] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:54:50,951] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:54:51,045] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:54:51,056] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:54:51,059] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.113 seconds
+[2021-03-09 12:55:40,995] {scheduler_job.py:153} INFO - Started process (PID=30978) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:55:40,997] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:55:40,997] {logging_mixin.py:112} INFO - [2021-03-09 12:55:40,997] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:55:41,001] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:55:41,193] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:55:41,203] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:55:41,206] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.210 seconds
+[2021-03-09 12:56:31,046] {scheduler_job.py:153} INFO - Started process (PID=31702) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:56:31,047] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:56:31,048] {logging_mixin.py:112} INFO - [2021-03-09 12:56:31,048] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:56:31,051] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:56:31,207] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:56:31,217] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:56:31,219] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.173 seconds
+[2021-03-09 12:57:21,093] {scheduler_job.py:153} INFO - Started process (PID=32407) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:57:21,095] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:57:21,095] {logging_mixin.py:112} INFO - [2021-03-09 12:57:21,095] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:57:21,098] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:57:21,192] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:57:21,202] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:57:21,205] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.111 seconds
+[2021-03-09 12:58:22,011] {scheduler_job.py:153} INFO - Started process (PID=888) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:58:22,013] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:58:22,013] {logging_mixin.py:112} INFO - [2021-03-09 12:58:22,013] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:58:22,018] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:58:22,119] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:58:22,130] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:58:11.016125+00:00: manual__2021-03-09T15:58:11.016125+00:00, externally triggered: True>
+[2021-03-09 12:58:22,145] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:58:22,147] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.dummy_task 2021-03-09 15:58:11.016125+00:00 [scheduled]> in ORM
+[2021-03-09 12:58:22,234] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.223 seconds
+[2021-03-09 12:59:22,537] {scheduler_job.py:153} INFO - Started process (PID=2013) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:59:22,538] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 12:59:22,539] {logging_mixin.py:112} INFO - [2021-03-09 12:59:22,538] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:59:22,542] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 12:59:22,644] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 12:59:22,654] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:58:11.016125+00:00: manual__2021-03-09T15:58:11.016125+00:00, externally triggered: True>
+[2021-03-09 12:59:22,669] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 12:59:22,672] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.my_sensor_task 2021-03-09 15:58:11.016125+00:00 [scheduled]> in ORM
+[2021-03-09 12:59:22,752] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.215 seconds
+[2021-03-09 13:01:13,824] {scheduler_job.py:153} INFO - Started process (PID=4063) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:01:13,826] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 13:01:13,826] {logging_mixin.py:112} INFO - [2021-03-09 13:01:13,826] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:01:13,830] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:01:14,025] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 13:01:14,035] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:58:11.016125+00:00: manual__2021-03-09T15:58:11.016125+00:00, externally triggered: True>
+[2021-03-09 13:01:14,053] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 13:01:14,056] {scheduler_job.py:1634} INFO - Creating / updating <TaskInstance: my_test_dag.my_first_operator_task 2021-03-09 15:58:11.016125+00:00 [scheduled]> in ORM
+[2021-03-09 13:01:14,146] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.322 seconds
+[2021-03-09 13:02:14,447] {scheduler_job.py:153} INFO - Started process (PID=5045) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:02:14,449] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 13:02:14,449] {logging_mixin.py:112} INFO - [2021-03-09 13:02:14,449] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:02:14,453] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:02:14,556] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 13:02:14,567] {scheduler_job.py:757} INFO - Examining DAG run <DagRun my_test_dag @ 2021-03-09 15:58:11.016125+00:00: manual__2021-03-09T15:58:11.016125+00:00, externally triggered: True>
+[2021-03-09 13:02:14,573] {logging_mixin.py:112} INFO - [2021-03-09 13:02:14,573] {dagrun.py:318} INFO - Marking run <DagRun my_test_dag @ 2021-03-09 15:58:11.016125+00:00: manual__2021-03-09T15:58:11.016125+00:00, externally triggered: True> successful
+[2021-03-09 13:02:14,675] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 13:02:14,677] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.229 seconds
+[2021-03-09 13:03:04,389] {scheduler_job.py:153} INFO - Started process (PID=5833) to work on /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:03:04,391] {scheduler_job.py:1560} INFO - Processing file /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py for tasks to queue
+[2021-03-09 13:03:04,391] {logging_mixin.py:112} INFO - [2021-03-09 13:03:04,391] {dagbag.py:403} INFO - Filling up the DagBag from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:03:04,395] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['my_test_dag']) retrieved from /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py
+[2021-03-09 13:03:04,495] {scheduler_job.py:1282} INFO - Processing my_test_dag
+[2021-03-09 13:03:04,507] {scheduler_job.py:446} INFO - Skipping SLA check for <DAG: my_test_dag> because no tasks in DAG have SLAs
+[2021-03-09 13:03:04,509] {scheduler_job.py:161} INFO - Processing /home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/dags/test_operators.py took 0.120 seconds
