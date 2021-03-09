@@ -2,6 +2,7 @@ import logging
 
 from datetime import datetime
 from airflow.operators.sensors import BaseSensorOperator
+from airflow.models import Variable
 
 from airflow.models import BaseOperator
 from airflow.plugins_manager import AirflowPlugin
@@ -16,6 +17,8 @@ class MyFirstSensor(BaseSensorOperator):
         super(MyFirstSensor, self).__init__(*args, **kwargs)
 
     def poke(self, context):
+        testVar = Variable.get("TestVar")
+        log.info("TestVar value is: %s", testVar)
         current_minute = datetime.now().minute
         if current_minute % 3 != 0:
             log.info("Current minute (%s) not is divisible by 3, sensor will retry.", current_minute)

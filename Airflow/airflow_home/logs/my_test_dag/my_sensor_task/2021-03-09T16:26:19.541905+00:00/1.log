@@ -1,0 +1,62 @@
+[2021-03-09 13:27:32,935] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: my_test_dag.my_sensor_task 2021-03-09T16:26:19.541905+00:00 [queued]>
+[2021-03-09 13:27:32,942] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: my_test_dag.my_sensor_task 2021-03-09T16:26:19.541905+00:00 [queued]>
+[2021-03-09 13:27:32,942] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-09 13:27:32,942] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2021-03-09 13:27:32,942] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-09 13:27:33,036] {taskinstance.py:887} INFO - Executing <Task(MyFirstSensor): my_sensor_task> on 2021-03-09T16:26:19.541905+00:00
+[2021-03-09 13:27:33,038] {standard_task_runner.py:53} INFO - Started process 27806 to run task
+[2021-03-09 13:27:33,170] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_test_dag.my_sensor_task 2021-03-09T16:26:19.541905+00:00 [running]> rep-pc
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING - --- Logging error ---
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING - Traceback (most recent call last):
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING -   File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING -   File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/utils/log/colored_log.py", line 93, in format
+    return super(CustomTTYColoredFormatter, self).format(record)
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/colorlog/colorlog.py", line 119, in format
+    message = super(ColoredFormatter, self).format(record)
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING -   File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING -   File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING - TypeError: not all arguments converted during string formatting
+[2021-03-09 13:27:33,179] {logging_mixin.py:112} WARNING - Call stack:
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/bin/airflow", line 37, in <module>
+    args.func(args)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/utils/cli.py", line 75, in wrapper
+    return f(*args, **kwargs)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/bin/cli.py", line 545, in run
+    _run(args, dag, ti)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/bin/cli.py", line 460, in _run
+    run_job.run()
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/jobs/base_job.py", line 221, in run
+    self._execute()
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/jobs/local_task_job.py", line 95, in _execute
+    self.task_runner.start()
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 42, in start
+    self.process = self._start_by_fork()
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 81, in _start_by_fork
+    args.func(args, dag=self.dag)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/utils/cli.py", line 75, in wrapper
+    return f(*args, **kwargs)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/bin/cli.py", line 545, in run
+    _run(args, dag, ti)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/bin/cli.py", line 465, in _run
+    pool=args.pool,
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/env_airflow/lib/python3.6/site-packages/airflow/sensors/base_sensor_operator.py", line 107, in execute
+    while not self.poke(context):
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING -   File "/home/rep/Documents/Iquall/iquall-stack-practice/Airflow/airflow_home/plugins/my_operators.py", line 21, in poke
+    log.info("TestVar value is: ", testVar)
+[2021-03-09 13:27:33,181] {logging_mixin.py:112} WARNING - Message: 'TestVar value is: '
+Arguments: ('\x1b[1mTest Variable Value\x1b[0m',)
+[2021-03-09 13:27:33,182] {logging_mixin.py:112} INFO - [2021-03-09 13:27:33,181] {my_operators.py:27} INFO - Current minute (27) is divisible by 3, sensor finishing.
+[2021-03-09 13:27:33,256] {base_sensor_operator.py:123} INFO - Success criteria met. Exiting.
+[2021-03-09 13:27:33,258] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=my_test_dag, task_id=my_sensor_task, execution_date=20210309T162619, start_date=20210309T162732, end_date=20210309T162733
+[2021-03-09 13:27:42,845] {logging_mixin.py:112} INFO - [2021-03-09 13:27:42,845] {local_task_job.py:103} INFO - Task exited with return code 0
