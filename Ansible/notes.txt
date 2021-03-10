@@ -1,0 +1,17 @@
+-kK // para que pida la contraseña al ejecutar
+ansible [all / host-group] --list hosts
+ansible [all / host-group] -m ping // con -m decimos que utilizamos cierto module, en este caso, ping
+
+Tasks: se ejecutan siempre
+Handlers: Se ejecutan cuando son notificadas. Se ejecutan una única vez, no importa cuantas veces se las notifique.
+          Se puede notificar directamente a un Handler, o se puede notificar a un Topic que varios handlers pueden escuchar.
+          La task que lo notifica debe hacer un cambio, sino no notifica nada.
+
+pip install "ansible-lint[yamllint]"
+ansible-lint [file.yml]
+
+Otras utilidades de ansible-playbook:
+--check, --diff, --list-hosts, list-tasks, and --syntax-check
+
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html
+https://www.redhat.com/en/blog/system-administrators-guide-getting-started-ansible-fast?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW

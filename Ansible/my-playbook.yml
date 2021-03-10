@@ -5,9 +5,12 @@
       apt:
         name: apache2
         state: latest
+      notify: "server installed"
 
+  handlers:
     - name: create default page content
+      listen: "server installed"
       copy:
-       content: "Welcome to {{ ansible_fqdn}} on {{ ansible_default_ipv4.address }}\n"
+       content: "Welcome to {{ ansible_fqdn }} on {{ ansible_default_ipv4.address }}, written with a handler\n"
        dest: /var/www/html/index.html
        mode: u=rw,g=rw,o=r
