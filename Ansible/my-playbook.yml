@@ -1,0 +1,13 @@
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: install apache server
+      apt:
+        name: apache2
+        state: latest
+
+    - name: create default page content
+      copy:
+       content: "Welcome to {{ ansible_fqdn}} on {{ ansible_default_ipv4.address }}\n"
+       dest: /var/www/html/index.html
+       mode: u=rw,g=rw,o=r
