@@ -1,0 +1,6 @@
+- name: create default page content
+  listen: "server installed"
+  copy:
+    content: "Welcome to {{ ansible_fqdn }} on {{ ansible_default_ipv4.address }}, written with a handler inside a role.\n"
+    dest: /var/www/html/index.html
+    mode: u=rw,g=rw,o=r
